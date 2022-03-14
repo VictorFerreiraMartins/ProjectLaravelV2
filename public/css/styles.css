@@ -1,0 +1,105 @@
+/* General*/
+
+*{
+    font-family: 'Roboto';
+}
+
+body {
+    min-height: 100vh;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+header{
+    background-color:#FFF;
+    border-bottom: 1px solid #CCC;
+}
+
+.row {
+    margin:0;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+.btn-primary{
+    border: 2px solid #000;
+    background-color: #AAA;
+}
+
+.btn-primary:hover{
+    background-color: #C22;
+    border-color: #C22;
+}
+
+.msg{
+    background-color: #D4EDDA;
+    color: #155724;
+    border: 1px solid #C3E6CB;
+    width: 100%;
+    margin-bottom: 5px;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Navbar */
+
+#navbar img{
+    width: 40px;
+}
+
+#navbar {
+    justify-content: space-between;
+    background-color: #FFF;
+    padding: 5px 0;
+}
+
+#navbar a{
+    font-size: 14px;
+    color:#757575;
+}
+
+#navbar a:hover{
+    color:#C22;
+}
+
+/* Body */
+
+body h1{
+    color: #C22;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Forms */
+#product-create-container{
+    padding: 30px;
+}
+
+#product-create-container label{
+    font-weight: bold;
+}
+
+#product-create-container input,
+#product-create-container number,
+#product-create-container textarea{
+    font-size: 12px;
+}
+
+/* Footer */
+footer{
+    text-align: center;
+    background-color: #353E48;
+    color: #FFF;
+    padding: 30px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin-bottom: 0;
+}
